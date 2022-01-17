@@ -16,6 +16,7 @@ export default function Weather() {
         <button type="submit" className="submit-btn">
           SEARCH
         </button>
+
         <button
           type="button"
           className="current-btn"
@@ -35,28 +36,15 @@ export default function Weather() {
       </div>
 
       <div className="col-md-4 align-self-center" id="firstCol">
-        <img
-          className="main-img"
-          id="mainImg"
-          src="/img/sunny.png"
-          alt="Cloudy"
-          width="90px"
-        />
-      </div>
-
-      <div className="col-md-4 align-self-center" id="firstCol">
         <strong className="temperature" id="temperature">
           {" "}
         </strong>
         <span className="units">
-          <a href="#" id="celsiusLink" className="active">
+          <p id="celsiusLink" className="active">
             {" "}
             °C
-          </a>{" "}
-          |
-          <a href="#" id="fahrenheitLink">
-            °F
-          </a>
+          </p>{" "}
+          |<p id="fahrenheitLink">°F</p>
         </span>
 
         <div className="align-self-center">
