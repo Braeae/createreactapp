@@ -1,0 +1,219 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
+}
+
+form {
+  padding-bottom: 5px;
+}
+
+input {
+  background-color: #fff;
+  border: 3px solid #ff8ca4;
+  color: rgb(155, 153, 153);
+  width: 300px;
+  outline: none;
+  margin: 0 15px;
+}
+
+strong {
+  color: #ff4672;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+
+  color: #b356c1;
+  font-weight: 500;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app-name {
+  margin: 12px 14px;
+  color: #b356c1;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  position: relative;
+  text-align: left;
+}
+
+.cityName {
+  font-family: "Nunito", "Courier New", Courier, monospace;
+  font-size: 30px;
+  color: #ff4672;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container {
+  background-color: #eff7f7;
+  display: block;
+  margin: 0 auto;
+
+  margin-top: 40px;
+  width: 720px;
+  height: 600px;
+  max-width: 100%;
+  border: 5px solid #88d2cb;
+  border-radius: 10px;
+  box-shadow: 5px 2px 5px rgb(194, 192, 192);
+}
+
+.current-btn {
+  color: purple;
+  display: inline;
+  font-size: 13px;
+  background-color: white;
+  border: 3px solid #ff8ca4;
+  width: 120px;
+  border-radius: 20px;
+  padding: 4px;
+  margin: 0 8px;
+}
+
+.submit-btn {
+  color: purple;
+  background-color: white;
+  border: 3px solid #ff8ca4;
+  width: 100px;
+  border-radius: 20px;
+  margin: 0 15px;
+}
+.main-img {
+  display: block;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+.date {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  color: #b356c1;
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.temperature {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ff4672;
+  display: inline;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.celsius-fahrenheit {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ff4672;
+  display: block;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.units {
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ff4672;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday,
+.weather-forecast-date {
+  color: #b356c1;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-temperature-max,
+.weather-forecast-temperature-min {
+  color: purple;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#celsiusLink,
+#fahrenheitLink,
+#weatherUnit {
+  text-decoration: none;
+  color: #ff4672;
+  display: inline;
+  font-size: 16px;
+}
+
+#celsiusLink:hover,
+#fahrenheitLink:hover {
+  color: purple;
+}
+
+#codeLink {
+  text-align: center;
+  margin: 0 auto;
+  padding: 12px;
+  font-size: 12px;
+}
+
+#daysOfWeek {
+  color: #b356c1;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#rowFirstCol {
+  margin-block-start: 40px;
+  margin-block-end: 120px;
+}
+
+#unit {
+  text-decoration: none;
+  color: #ff4672;
+  display: inline;
+}
+
+#forecastDays {
+  flex-wrap: wrap;
+  border: 3px solid #efdbf2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 14.7%;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#forecastDays:hover {
+  background-color: #efdbf2;
+}
+
+#weatherIs {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ff4672;
+  display: block;
+  text-align: center;
+  margin: 8px 0;
+}
