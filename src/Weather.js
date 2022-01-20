@@ -60,13 +60,14 @@ export default function Weather() {
           </ul>
         </div>
       </div>
-
-      <strong>
-        <a href="https://github.com/Braeae/plusproject" target="_blank">
-          Open-source code
-        </a>
-        by Busra
-      </strong>
+      <p id="codeLink" id="weekDays">
+        <strong>
+          <a href="https://github.com/Braeae/plusproject" target="_blank">
+            Open-source code
+          </a>
+          by Busra
+        </strong>
+      </p>
     </div>
   );
 }
