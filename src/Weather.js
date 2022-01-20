@@ -57,17 +57,20 @@ export default function Weather() {
             <li>
               Feels Like: <span id="feels"> </span>°
             </li>
+            <li>
+              Max: <span id="feels"> </span>°
+            </li>
           </ul>
+          <p id="codeLink" id="weekDays">
+            <strong>
+              <a href="https://github.com/Braeae/plusproject" target="_blank">
+                Open-source code
+              </a>
+              by Busra
+            </strong>
+          </p>
         </div>
       </div>
-      <p id="codeLink" id="weekDays">
-        <strong>
-          <a href="https://github.com/Braeae/plusproject" target="_blank">
-            Open-source code
-          </a>
-          by Busra
-        </strong>
-      </p>
     </div>
   );
 }
