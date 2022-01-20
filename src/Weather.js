@@ -58,7 +58,7 @@ export default function Weather() {
               Feels Like: <span id="feels"> </span>°
             </li>
             <li>
-              Max feels: <span id="feels"> </span>°
+              Max feels: ç<span id="feels"> </span>°
             </li>
           </ul>
           <p id="codeLink" id="weekDays">
